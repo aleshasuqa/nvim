@@ -50,8 +50,11 @@ return {
         opts = function(_, opts)
             opts.options = {
                 theme = night,
-                component_separators = { left = "", right = "" },
-                section_separators = { left = "", right = "" },
+                component_separators = { left = "", right = "" },
+                section_separators = { left = "", right = "" },
+            }
+            opts.sections = {
+                lualine_z = { "location" },
             }
         end,
     },
